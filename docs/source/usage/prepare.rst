@@ -46,3 +46,37 @@ space to the desired range.
 
 .. [HIPR] Hypermedia Image Processing Reference - R. Fisher, S. Perkins, 
     A. Walker and E. Wolfart
+
+Gausian Blur
+---------
+Gausian Blur is an image processing technique. It is used to reduce noise and detail in an image.
+The purpose of this technique is to create a smoother and softer version of the image by averaging
+the pixel values within a specified neighborhood around each pixel
+
+.. note::
+    This operation has only one parameter. It controls the size of the used filter.
+    It can be set between 1 and 50. This means that in x and y that many pixels are 
+    getting used to calculate the blur.
+    
+.. image::https://raw.githubusercontent.com/Segmensation/segmensation-docs/main/docs/source/img/gaussianBlur.png
+   :alt: image of GUI
+
+Thresholding
+---------
+Thresholding is used to segment or separate objects in a image. This will produce
+and image that is devided in two classes, either foreground or background.
+
+.. note::
+    There are three different types of thresholds that can be chosen
+    via the dropdown menu. 
+    Adaptive Mean: calculates a local threshold for each pixel based on the mean in a local neighborhood of that pixel
+    Adaptive Gaussian: uses the weighted average instead of the average in a local neighborhood
+    Otsu: this is a global technique that calculates an optimal threshold. It maximizes the variance between the two classes. 
+
+    For different images different thesholds can be optimal.
+
+.. image:: https://raw.githubusercontent.com/Segmensation/segmensation-docs/main/docs/source/img/threshold.png
+   :alt: image of GUI
+
+   .. image:: https://raw.githubusercontent.com/Segmensation/segmensation-docs/main/docs/source/img/threshold_dropdown.png
+   :alt: image of GUI
