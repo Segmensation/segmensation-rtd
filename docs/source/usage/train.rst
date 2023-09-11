@@ -14,6 +14,12 @@ respectively.
 Hough Circle Transformation
 ---------------------------
 Hough Circle Transformation can be used to detect circles in images.
+In this training config only one Slice of an image can be chosen. 
+After  a successfull Hough Transformation the image with its annotations is getting displayed. 
+
+This step is for trying on only one image before using on a whole stack of slices. 
+
+This computed image can be downloaded. 
 
 .. note:: 
     Hough Circle Transformation is an operation that does not 
@@ -22,7 +28,7 @@ Hough Circle Transformation can be used to detect circles in images.
     calculated and the result is shown. "Prediction" only contains a 
     download option for the results.
 
-.. image:: https://raw.githubusercontent.com/Segmensation/segmensation-docs/main/source/img/train_hct.jpg
+.. image:: https://raw.githubusercontent.com/Segmensation/segmentation-rtd/main/docs/source/img/train_hct.jpg
    :alt: image of GUI
 
 
@@ -30,6 +36,7 @@ Ellipse Detection
 ---------------------------
 Ellipse Detection can be used to detect circular and elliptical shapes in images.
 
+The calculated image annotations can be calculated. 
 
 .. note:: 
    This does not require training. This is a classic detection method.
@@ -37,6 +44,6 @@ Ellipse Detection can be used to detect circular and elliptical shapes in images
    Then it fits an ellipse around a set of 2D points. The function calculates the ellipse that fits a set of 2D points created from the contour.
 
 
-.. image:: https://raw.githubusercontent.com/Segmensation/segmensation-docs/main/source/img/train_hct.jpg
+.. image:: https://raw.githubusercontent.com/Segmensation/segmentation-rtd/main/docs/source/img/ellipse_detection.png
    :alt: image of GUI
 .. [TSA] Satoshi Suzuki and others. Topological structural analysis of digitized binary images by border following. Computer Vision, Graphics, and Image Processing, 30(1):32–46, 1985.

@@ -22,8 +22,8 @@ opened again by erosion.
     For details on how closing works and corresponding examples, see `this 
     page <https://homepages.inf.ed.ac.uk/rbf/HIPR2/close.htm>`_ from HIPR_.
 
-Parameters
-^^^^^^^^^^
+Parameters:
+
 Number of iterations for Dilation and Erosion.
 
 .. image:: https://raw.githubusercontent.com/Segmensation/segmensation-docs/main/source/img/prepare_closing.jpg
@@ -58,7 +58,7 @@ the pixel values within a specified neighborhood around each pixel
     It can be set between 1 and 50. This means that in x and y that many pixels are 
     getting used to calculate the blur.
     
-.. image::https://raw.githubusercontent.com/Segmensation/segmensation-docs/main/docs/source/img/gaussianBlur.png
+.. image::https://raw.githubusercontent.com/Segmensation/segmentation-rtd/main/docs/source/img/gaussianBlur.png
    :alt: image of GUI
 
 Thresholding
@@ -75,8 +75,8 @@ and image that is devided in two classes, either foreground or background.
 
     For different images different thesholds can be optimal.
 
-.. image:: https://raw.githubusercontent.com/Segmensation/segmensation-docs/main/docs/source/img/threshold.png
+.. image:: https://raw.githubusercontent.com/Segmensation/segmentation-rtd/main/docs/source/img/threshold.png
    :alt: image of GUI
 
-   .. image:: https://raw.githubusercontent.com/Segmensation/segmensation-docs/main/docs/source/img/threshold_dropdown.png
+   .. image:: https://raw.githubusercontent.com/Segmensation/segmentation-rtd/main/docs/source/img/threshold_dropdown.png
    :alt: image of GUI

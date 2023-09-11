@@ -18,8 +18,33 @@ Hough Circle Transformation
 ---------------------------
 Hough Circle Transformation can be used to detect circles in images.
 
-The results of the Hough Circle Transformation from the "Training" 
-step can be downloaded here.
+Here a whole batch ( the complete stack of slices of an image) can be computed here. 
 
-.. image:: https://raw.githubusercontent.com/Segmensation/segmensation-docs/main/source/img/predict_hct.jpg
+The results can be downloaded and visualized. 
+.. note::
+   note that the LAST used parameters in the training step are getting used. 
+
+.. image:: https://raw.githubusercontent.com/Segmensation/segmentation-rtd/main/docs/source/img/predict_hct.jpg
+   :alt: image of GUI
+
+After predicting the images can be visualized in 3D. 
+Here you can see all selected slices in a image and the resulting calculated fitted objects.
+
+This was developed to see a 3d mesh of tube like structures. If the tube like structure is seen on adjacent slices, 
+they get connected. 
+
+.. note::
+   you can specify the radius when the tube like structures are still connected. This is measured in absolute px
+   in x,y and radius of the centerpoints.   
+
+.. image:: https://raw.githubusercontent.com/Segmensation/segmentation-rtd/main/docs/source/img/predict_hct.jpg
+   :alt: image of GUI
+
+.. image:: https://raw.githubusercontent.com/Segmensation/segmentation-rtd/main/docs/source/img/hough_circle_transformation_visu.png
+
+
+The visualized 3d mesh is displayed in a browser. You can disable each slice and each connection between the slices.
+The 3D-Mesh can ge rotated freely. 
+
+.. image:: https://raw.githubusercontent.com/Segmensation/segmentation-rtd/main/docs/source/img/visu_pred_hct.png
    :alt: image of GUI
