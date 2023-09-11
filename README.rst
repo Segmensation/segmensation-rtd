@@ -1,9 +1,8 @@
-Template for the Read the Docs tutorial
-=======================================
+# segmensation-docs
+Source files for the documentation for the segmensation project.
+The rendered documentation can be found [here](https://segmensation.readthedocs.io/).
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
 
-Read the tutorial here:
 
+For a tutorial go here here:
 https://docs.readthedocs.io/en/stable/tutorial/
