@@ -100,7 +100,7 @@ Localhost Windows
    - "user" is your linux user name
    - "sshpw" is an ssh key of your maschine (not necessary)
    - "becomepw" is your sudo password from your linux
-   - "vaultpw" is in the KeePass database
+   - "vaultpw" is in the KeePass database (ask dev team for Vault password)
 - now you should have a segmensation and traefik folder with docker-compose files in it
 
 
