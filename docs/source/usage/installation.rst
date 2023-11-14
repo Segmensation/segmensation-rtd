@@ -76,7 +76,7 @@ Localhost Windows
 **5. Deploy**
 
 - Open your Linux Distribution
-- clone this repository
+- clone the `segmensation-infrastructure <https://github.com/Segmensation/segmensation-infra>` repository 
 - edit ansible/host_vars/localhost/vars.yml
 
 - ::
