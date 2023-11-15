@@ -3,13 +3,27 @@ Training
 
 Random Forest Classifier
 ------------------------
-Currently there are two modes of Training for the Random Forest 
-Classifier: A fast one with medium accuracy and a slow one with 
-higher accuracy. The maximum depths of the tree are 10 and 17 
-respectively.
+
+The `Random Forest Classifier <https://web.archive.org/web/20160417030218/http://ect.bell-labs.com/who/tkh/publications/papers/odt.pdf>`_  is 
+a meta estimator that fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting.
+The implementation follows closely the implementation of `sklearn <https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html>`_
+
+Currently there are two modes of Training for the Random Forest Classifier: A fast one with medium accuracy and a slow one with 
+higher accuracy. The maximum depths of the tree are 10 and 17 respectively.
 
 .. image:: https://raw.githubusercontent.com/Segmensation/segmensation-docs/main/source/img/train_rfc.jpg
    :alt: image of GUI
+
+
+The image before and after segmentation with Random Forest
+
+|pic1| any text |pic2|
+
+.. |pic1| image:: /img/RandomForestInput.png
+   :width: 45%
+
+.. |pic2| image:: /img/RandomForestPrediction.png
+   :width: 45%
 
 Hough Circle Transformation
 ---------------------------
@@ -31,6 +45,14 @@ This computed image can be downloaded.
 .. image:: https://raw.githubusercontent.com/Segmensation/segmentation-rtd/main/docs/source/img/train_hct.jpg
    :alt: image of GUI
 
+|pic1| any text |pic2|
+
+.. |pic1| image:: /img/hough_circle_transformation_input.png
+   :width: 45%
+
+.. |pic2| image:: /img/hough_circle_transformation_result.png
+   :width: 45%
+
 
 Ellipse Detection
 ---------------------------
@@ -46,4 +68,14 @@ The calculated image annotations can be calculated.
 
 .. image:: https://raw.githubusercontent.com/Segmensation/segmentation-rtd/main/docs/source/img/ellipse_detection.png
    :alt: image of GUI
+
+|pic1| any text |pic2|
+
+.. |pic1| image:: /img/ellipse_detection_input.png
+   :width: 45%
+
+.. |pic2| image:: /img/ellipse_detection_result.png
+   :width: 45%
+
+
 .. [TSA] Satoshi Suzuki and others. Topological structural analysis of digitized binary images by border following. Computer Vision, Graphics, and Image Processing, 30(1):32–46, 1985.

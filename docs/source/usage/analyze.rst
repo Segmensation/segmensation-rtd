@@ -1,5 +1,13 @@
 Analyzing an Image
 ==================
+
+
+.. warning::
+   Most of these components save the output only on the backend of the application.
+   This must be changed in future iterations, so users of the frontend have access
+   to the results!
+
+
 This tab contains a number of functions that were specifically 
 implemented for the analysis of astrocytes and nerve fibers in brain 
 images. 
@@ -28,10 +36,22 @@ into:
   `model\\astrocytes\\train_data\\new_training_regions` inside the 
   docker container of the backend and need to be sorted there.
 
+
+
 .. image:: /img/analyze_find_astrocytes_1.jpg
    :alt: image of GUI
 
-If "Show diagram" is checked, a website will be opened, which will 
+
+|pic1| any text |pic2|
+
+.. |pic1| image:: /img/astrocytes_input.png
+   :width: 45%
+
+.. |pic2| image:: /img/astrocytes_result.png
+   :width: 45%
+
+
+If "Open diagram" is checked, a website will be opened, which will 
 show the present prediction of regions. This can help with manual 
 labelling.
 
