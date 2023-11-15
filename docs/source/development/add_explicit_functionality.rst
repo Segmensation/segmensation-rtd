@@ -15,6 +15,8 @@ Adding frontend interfaces for watershed segmentation
 Fist we create a new folder in the correct location where the new application should be located.
 This can be in the *analyze*, *Classifier*, *open* or *prepare* section, 
 We put the watershed algorithm in the ``segmensation-app/src/script/prepare`` section of the application.
+
+
 .. image:: https://raw.githubusercontent.com/Segmensation/segmensation-docs/main/source/img/watershed/create_folder.png
     :alt: create frontend folder for watershed
 
@@ -37,6 +39,7 @@ For the *watershed segmentation* we want the Name of the Algorithm and a button 
 The *<template>* section of this vue code determines how the frontend looks like. (`Template Syntax <https://vuejs.org/guide/essentials/template-syntax.html>`_)
 
 .. code-block:: html
+
     <template>
         <v-list-item>
             <v-list-item-action>
