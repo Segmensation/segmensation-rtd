@@ -47,6 +47,7 @@ Contents
    development/add_explicit_functionality
    development/pyimagej
    development/documentation
+   developed/building_frontend_executeable
 
 
 .. Indices and tables
