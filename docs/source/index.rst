@@ -47,6 +47,10 @@ Contents
    development/add_explicit_functionality
    development/pyimagej
    development/building_frontend_executeable
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Documentation
    development/documentation
 
 
