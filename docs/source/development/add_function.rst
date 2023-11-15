@@ -1,4 +1,4 @@
-Adding new functionality
+Adding new functionality (general approach)
 ========================
 
 Due to the underlying Client-Server-Architecture, the functionality 
