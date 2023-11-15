@@ -44,6 +44,7 @@ Contents
 
    development/setup
    development/add_function
+   development/add_explicit_functionality
    development/pyimagej
    development/documentation
 
