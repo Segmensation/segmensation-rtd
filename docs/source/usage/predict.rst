@@ -3,7 +3,7 @@ Predicting Classes
 
 Random Forest Classifier
 ------------------------
-The Random Forest Classifier that was created during Training can 
+The `Random Forest Classifier <https://web.archive.org/web/20160417030218/http://ect.bell-labs.com/who/tkh/publications/papers/odt.pdf>`_ that was created during Training can 
 be used to predict the contents of other images.
 For this, select another image from the upload section and run the 
 Prediction.
@@ -14,9 +14,20 @@ Prediction.
 Resulting probability maps can be saved as images and pixel 
 probabilities can be saved as CSV.
 
+The image before and after segmentation with Random Forest
+
+|pic1| any text |pic2|
+
+.. |pic1| image:: /img/RandomForestInput.png
+   :width: 45%
+
+.. |pic2| image:: /img/RandomForestPrediction.png
+   :width: 45%
+
+
 Hough Circle Transformation
 ---------------------------
-Hough Circle Transformation can be used to detect circles in images.
+`Hough Circle Transformation <https://en.wikipedia.org/wiki/Circle_Hough_Transform>`_ can be used to detect circles in images.
 
 Here a whole batch ( the complete stack of slices of an image) can be computed here. 
 
