@@ -17,19 +17,20 @@ This can be in the *analyze*, *Classifier*, *open* or *prepare* section,
 We put the watershed algorithm in the ``segmensation-app/src/script/prepare`` section of the application.
 
 
-.. image:: https://raw.githubusercontent.com/Segmensation/segmensation-docs/main/source/img/watershed/create_folder.png
+.. image:: https://github.com/Segmensation/segmensation-rtd/blob/0975eb53a171267eaca8620c295930e50eb031dc/docs/source/img/watershed/create_folder.png?raw=true
+
     :alt: create frontend folder for watershed
 
 Next you need to create a file called ``comp.vue`` inside the watershed folder. 
 
-.. image:: https://raw.githubusercontent.com/Segmensation/segmensation-docs/main/source/img/watershed/create_comp_file.png
+.. image:: https://github.com/Segmensation/segmensation-rtd/blob/d3ae55f592593e2fa868a0b3a050fd943f7c9e3b/docs/source/img/watershed/create_comp_file.png?raw=true
     :alt: create comp.vue file for frontend of watershed
 
 
 That this newly create component gets found by the vue router, you need to register the directory you created. This needs to correspond to the location you created it in.
 We created our frontend file in the *prepare* section so we need to edit the file ``/segmensation-app/src/components/ToolsetPrepare.vue``. 
 
-.. image:: https://raw.githubusercontent.com/Segmensation/segmensation-docs/main/source/img/watershed/register_toolset.png
+.. image::https://github.com/Segmensation/segmensation-rtd/blob/d3ae55f592593e2fa868a0b3a050fd943f7c9e3b/docs/source/img/watershed/register_toolset.png?raw=true
     :alt: register file in ToolsetPrepare
 
 Now we can create our frontend code for this application. This is all done in the created ``segmensation-app/src/script/prepare/comp.vue`` file.
@@ -62,7 +63,7 @@ This creates a new item with an icon (mdi-call-received) in front of it. It has 
 
 You should be able to start the frontend with `yarn electron:serve` and see the newly create section under the *"Vorbereiten"* tab.
 
-.. image:: https://raw.githubusercontent.com/Segmensation/segmensation-docs/main/source/img/watershed/watershed_app1.png
+.. image:: https://github.com/Segmensation/segmensation-rtd/blob/d3ae55f592593e2fa868a0b3a050fd943f7c9e3b/docs/source/img/watershed/watershed_app1.png?raw=true
     :alt: watershed_app1
 
 Now we want to create the part that something happens when clicking on the button. we need to edit the template part so it gets connected to the <script> part of vue
@@ -276,7 +277,7 @@ to the ``segmensation-api/manipulation/__init__.py`` file.
 Start the frontend and backend and you should be able to execute the created watershed segmentation. 
 
 
-.. image:: https://raw.githubusercontent.com/Segmensation/segmensation-docs/main/source/img/watershed/watershed_app2.png
+.. image:: https://github.com/Segmensation/segmensation-rtd/blob/d3ae55f592593e2fa868a0b3a050fd943f7c9e3b/docs/source/img/watershed/watershed_app2.png?raw=true
     :alt: watershed_app2
 
 
