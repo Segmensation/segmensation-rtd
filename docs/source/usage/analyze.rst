@@ -42,7 +42,7 @@ into:
    :alt: image of GUI
 
 
-|pic1| any text |pic2|
+|pic1|  |pic2|
 
 .. |pic1| image:: /img/astrocytes_input.png
    :width: 45%
