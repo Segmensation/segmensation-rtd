@@ -36,6 +36,7 @@ Hough Circle Transformation
 Here a whole batch ( the complete stack of slices of an image) can be computed here. 
 
 The results can be downloaded and visualized. 
+
 .. note::
    note that the LAST used parameters in the training step are getting used. 
 
