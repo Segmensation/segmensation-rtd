@@ -4,8 +4,8 @@ Adding new functionality (explicit approach)
 To add for example an imaging algorithm like `watershed segmentation <https://docs.opencv.org/4.x/d3/db4/tutorial_py_watershed.html>`_
 of an image you need to do following steps:
 
-- Implement interface for frontend
-- Implement functionality of watershed in the backend
+- Implement interface for frontend 
+- Implement functionality of watershed in the backend 
 - Handle the information flow between frontend and backend
 
 
@@ -66,8 +66,9 @@ You should be able to start the frontend with `yarn electron:serve` and see the 
 .. image:: https://github.com/Segmensation/segmensation-rtd/blob/d3ae55f592593e2fa868a0b3a050fd943f7c9e3b/docs/source/img/watershed/watershed_app1.png?raw=true
     :alt: watershed_app1
 
-Now we want to create the part that something happens when clicking on the button. we need to edit the template part so it gets connected to the <script> part of vue
+Next we create the functionality of the button when clicking on it. We need to edit the template part so it gets connected to the <script> part of vue
 (we will get to this in a second)
+The *<script>* part of this file will hold the frontend functionality of this module (light data manipulation and the call to backend)
 
 We add *@click="watershed()* to the button so it will activate the *watershed()* function when clicking. 
 .. code-block:: html
@@ -80,8 +81,13 @@ We add *@click="watershed()* to the button so it will activate the *watershed()*
     </v-container>
 
 
-Now lets create the watershed function call.
-For this we need the script section of the vue file.
+
+The template part is expandable in any way you want. You can add some dropdown menus or some text filed or ...
+Take a look at other components already created or get inspired from `Vuetify <https://v2.vuetifyjs.com/en/>`_
+
+
+For now lets create the watershed call to the backend.
+The *<script>* section of the vue file is needed for this.
 
 .. code-block:: typescript
 
@@ -109,7 +115,9 @@ For this we need the script section of the vue file.
 Now we created an function called watershed that is called when the button is clicked.
 For now this function just calls the api and retrieves the selected images. 
 
-Lets add an API call to the backend so we can compute the watershed segmentation on the selected image.
+Here this method is called asynchronous *async* this function does not create a lock. 
+
+Lets add an API call to the backend so we can implement the computation of the watershed segmentation on the selected image.
 
 For this we add following code to the function:
 
@@ -128,20 +136,18 @@ For this we add following code to the function:
         .then(() => store.commit('editImageReload'));
     }
 
-This calls the API function *requestWatershed* and after executing this the displayed image will get reloaded. 
-
-
-This is expandable in any way you want. You can add some dropdown menus or some text filed or ...
-Take a look at other components already created or get inspired from `Vuetify <https://v2.vuetifyjs.com/en/>`_
+First we will determine which image is selected. (When multiple images are selected you may need to add code to catch that if not intended)
+Then the API function *requestWatershed* gets called and after executing this the displayed image will get reloaded. 
 
 
 
-Creating API call
+
+Creating API call 
 --------------------------
 
 To link the frontend to the backend we need to create a api call. 
 
-For this we create a function in ``segmensation-app/src/api/api.ts``.
+For this we create a function in ``segmensation-app/src/api/api.ts``. (this is in the frontend part)
 The function must be named ``requestWatershed`` since we did name it like this in the script part of the frontend
 
 .. code-block:: typescript
@@ -167,8 +173,10 @@ This will not have an response. If you need one you may ad a part like
 
 Adding backend code for watershed segmentation
 --------------------------
+After dealing with everything in the frontend, we need to create the backend part with the API call and the algorithm that should be executed.
 
-First we need to collect that API call in the backend. 
+
+First we need to collect that API call.
 In ``segmensation-api/app.py`` we need to create the corresponding code for the Axios request. 
 
 .. code-block:: typescript
@@ -190,7 +198,9 @@ The code in ``app.py`` should look like:
 
 This will call *manipulation_watershed* and will save the response as an image and returns to the frontend that the code was successful.
 
-Now we create a python file called ``watershed.py`` in ``segmensation-api/manipulation/``
+
+
+Next we create a python file called ``watershed.py`` in ``segmensation-api/manipulation/``
 
 In this file we can now create the function where we actually calculate the watershed segmentation. 
 
@@ -284,4 +294,4 @@ Start the frontend and backend and you should be able to execute the created wat
 
 !!CONGRATULATIONS!!
 
-you build your first component in segmensation
+You build your first component in segmensation.

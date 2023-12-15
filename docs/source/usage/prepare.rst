@@ -7,7 +7,7 @@ brightness.
 
 Closing
 -------
-Closing is an operator from the field of mathematical morphology that is 
+`Closing <https://homepages.inf.ed.ac.uk/rbf/HIPR2/close.htm>`_ is an operator from the field of mathematical morphology that is 
 usually used on binary or grayscale images. As the name implies, closing 
 is an operator that removes small holes in objects. It also reduces 
 general noise in images.
@@ -18,9 +18,6 @@ shrinks it. Due to the way these two operations work, the borders of
 objects stay similar, but holes that are filled by dilation can not be 
 opened again by erosion.
 
-.. note::
-    For details on how closing works and corresponding examples, see `this 
-    page <https://homepages.inf.ed.ac.uk/rbf/HIPR2/close.htm>`_ from HIPR_.
 
 Parameters:
 
@@ -29,11 +26,14 @@ Number of iterations for Dilation and Erosion.
 .. image:: https://raw.githubusercontent.com/Segmensation/segmensation-docs/main/source/img/prepare_closing.jpg
    :alt: image of GUI
 
+.. image:: /img/closing.png
+   :alt: image of closing
 Shrinking
 ---------
 Shrinking can be used to manipulate the color histogram of an image. 
 With this operation, certain colors can be enhanced by reducing the color 
 space to the desired range.
+This operation will simply limit the available color space for the selected image 
 
 
 .. note::
@@ -44,12 +44,13 @@ space to the desired range.
 .. image:: https://raw.githubusercontent.com/Segmensation/segmensation-docs/main/source/img/prepare_shrinking.jpg
    :alt: image of GUI
 
-.. [HIPR] Hypermedia Image Processing Reference - R. Fisher, S. Perkins, 
-    A. Walker and E. Wolfart
+.. image:: /img/shrinking.png
+   :alt: image of shrinking
+
 
 Gausian Blur
 ---------
-Gausian Blur is an image processing technique. It is used to reduce noise and detail in an image.
+`Gausian Blur <https://shimat.github.io/opencvsharp_docs/html/7b0301d7-322d-a554-8d3f-32fd8ca0ee50.htm>`_ is an image processing technique. It is used to reduce noise and detail in an image.
 The purpose of this technique is to create a smoother and softer version of the image by averaging
 the pixel values within a specified neighborhood around each pixel
 
@@ -63,7 +64,7 @@ the pixel values within a specified neighborhood around each pixel
 
 Thresholding
 ---------
-Thresholding is used to segment or separate objects in a image. This will produce
+`Thresholding <https://docs.opencv.org/4.x/d7/d4d/tutorial_py_thresholding.html>`_ is used to segment or separate objects in a image. This will produce
 and image that is devided in two classes, either foreground or background.
 
 .. note::

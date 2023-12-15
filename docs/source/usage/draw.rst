@@ -6,6 +6,8 @@ from the list on the right, adjust the line strength and start drawing.
 .. image:: https://raw.githubusercontent.com/Segmensation/segmensation-docs/main/source/img/draw.jpg
    :alt: image of GUI
 
+For now this is only used for Random Forest Classification. 
+
 
 Controls
 --------

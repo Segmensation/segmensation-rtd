@@ -37,7 +37,7 @@ A tutorial about the implementation of the Hough Circle Transformation can be fo
 .. image:: https://raw.githubusercontent.com/Segmensation/segmentation-rtd/main/docs/source/img/train_hct.jpg
    :alt: image of GUI
 
-|pic1| any text |pic2|
+|pic1|  |pic2|
 
 .. |pic1| image:: /img/hough_circle_transformation_input.png
    :width: 45%
@@ -63,10 +63,10 @@ This follows the approach by `OpenCV <https://docs.opencv.org/3.4/de/d62/tutoria
 .. image:: https://raw.githubusercontent.com/Segmensation/segmentation-rtd/main/docs/source/img/ellipse_detection.png
    :alt: image of GUI
 
-|pic1| any text |pic2|
+|pic3|  |pic4|
 
-.. |pic1| image:: /img/ellipse_detection_input.png
+.. |pic3| image:: /img/ellipse_detection_input.png
    :width: 45%
 
-.. |pic2| image:: /img/ellipse_detection_result.png
+.. |pic4| image:: /img/ellipse_detection_result.png
    :width: 45%

@@ -14,15 +14,19 @@ Prediction.
 Resulting probability maps can be saved as images and pixel 
 probabilities can be saved as CSV.
 
-The image before and after segmentation with Random Forest
+The image before and after segmentation with Random Forest:
+Since only 2 classes in the marking process got chosen, only 2 classes will be displayed.
 
-|pic1| any text |pic2|
+|pic1|  |pic2| |pic3|
 
 .. |pic1| image:: /img/RandomForestInput.png
-   :width: 45%
+   :width: 30%
 
-.. |pic2| image:: /img/RandomForestPrediction.png
-   :width: 45%
+.. |pic2| image:: /img/RandomForest_marking.png
+   :width: 30%
+   
+.. |pic3| image:: /img/RandomForestPrediction.png
+   :width: 30%
 
 
 Hough Circle Transformation

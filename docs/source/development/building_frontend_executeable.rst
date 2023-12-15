@@ -13,5 +13,7 @@ You should find an executable in the newly created ``dist_electron`` directory
    :alt: building App
    :align: center
 
-This is not connected to the backend yet(needs to be figured out in some future work),
+This is not connected to the backend yet (running backend on server and adjusting variables for connection to server is needed),
 but you can explore Segmensation already.
+
+Since all data and the execution of the algorithms is done in the backend, non of the algorithms can be actually done when no connection to the backend is established.
