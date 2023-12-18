@@ -14,18 +14,16 @@ Prediction.
 Resulting probability maps can be saved as images and pixel 
 probabilities can be saved as CSV.
 
-The image before and after segmentation with Random Forest:
-Since only 2 classes in the marking process got chosen, only 2 classes will be displayed.
-
+Here is an example of the input, the marking of two classes and the prediction output of this component.
 |pic1|  |pic2| |pic3|
 
-.. |pic1| image:: /img/RandomForestInput.png
+.. |pic1| image:: /img/train/example.png
    :width: 30%
 
-.. |pic2| image:: /img/RandomForest_marking.png
+.. |pic2| image:: /img/train/randomForest/class_marking.png
    :width: 30%
    
-.. |pic3| image:: /img/RandomForestPrediction.png
+.. |pic3| image:: /img/train/randomForest/prediction.png
    :width: 30%
 
 
