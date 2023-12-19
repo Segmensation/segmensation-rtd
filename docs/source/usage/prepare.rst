@@ -26,12 +26,14 @@ Number of iterations for Dilation and Erosion.
 .. image:: /img/prepare/closing_interface.png
    :alt: image of GUI
 
-|pic1|  |pic2|
 .. |pic1| image:: /img/training/example.png
    :alt: expample
 
 .. |pic2| image:: /img/prepare/closing.png
    :alt: image of closing
+
+|pic1|  |pic2|
+
 Shrinking
 ---------
 Shrinking can be used to manipulate the color histogram of an image. 
@@ -48,12 +50,13 @@ This operation will simply limit the available color space for the selected imag
 .. image:: /img/prepare/shrinking_interface.png
    :alt: image of GUI
 
-|pic3|  |pic4|
 .. |pic3| image:: /img/training/example.png
    :alt: expample
 
 .. |pic4| image:: /img/prepare/shrinking.png
    :alt: image of shrinking
+
+|pic3|  |pic4|
 
 
 Gausian Blur
@@ -70,13 +73,15 @@ the pixel values within a specified neighborhood around each pixel
 .. image::https://raw.githubusercontent.com/Segmensation/segmentation-rtd/main/docs/source/img/gaussianBlur.png
    :alt: image of GUI
 
-|pic5|  |pic6|
 
 .. |pic5| image:: /img/training/example.png
    :alt: expample
 
 .. |pic6| image:: /img/prepare/blur.png   
    :alt: image of gaussian blur
+
+|pic5|  |pic6|
+
 
 Thresholding
 ---------
@@ -95,19 +100,22 @@ and image that is devided in two classes, either foreground or background.
 .. image:: /img/prepare/thresholding_interface.png   
    :alt: image of GUI
 
-|pic7| |pic8|
 .. |pic7| image:: /img/training/example.png
    :alt: expample
 
 .. |pic8|image:: /img/prepare/adaptive_mean.png   
    :alt: image of mean thresholding
 
-|pic9| |pic10|
+|pic7| |pic8|
+
+
 .. |pic9|image:: /img/prepare/adaptive_gauissian.png   
    :alt: image of gaussian thresholding
 
 .. |pic10|image:: /img/prepare/otsu.png
    :alt: image of otsu thresholding
+
+|pic9| |pic10|
 
 Watershed
 ---------
@@ -119,12 +127,14 @@ The barriers that got created give the segmentation result.
 
 An example of the watershed algorithm results can be seen here
 
-|pic11| |pic12|
 
 .. |pic11|image:: /img/prepare/watershed_interface.png
    :alt:: watershed GUI
       
 .. |pic12|image:: /img/prepare/watershed.png
    :alt: watershed of an example
+
+|pic11| |pic12|
+
 
 
