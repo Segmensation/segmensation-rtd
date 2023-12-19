@@ -70,7 +70,7 @@ Example of detecting ellipses with above parameters from an image.
 .. |pic3| image:: ../img/example.png
    :width: 45%
 
-.. |pic4| image:: ../img/ellipse/prediction.png
+.. |pic4| image:: docs/source/img/training/ellipse/prediciton.png
    :width: 45%
 
 |pic3|  |pic4|
