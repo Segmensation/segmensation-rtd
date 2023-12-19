@@ -168,6 +168,7 @@ This will not have an response. If you need one you may ad a part like
             channel,
             slice,
         }).then(response => {return response}  
+        
 
 
 
@@ -284,7 +285,7 @@ The only thing we now need to do is to register this function in ``segmensation-
 For this we simply add 
 
 .. code-block:: python 
-    
+
     from .watershed import watershed
 
 to the ``segmensation-api/manipulation/__init__.py`` file.

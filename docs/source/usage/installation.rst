@@ -34,6 +34,7 @@ Localhost Windows
 - note that ansible is not added to PATH
 - add it to path or use it directly with ``/home/<user>/.local/bin/ansible``
 - it should look like this on your linux vm
+
 .. image:: https://raw.githubusercontent.com/Segmensation/segmensation-docs/main/source/img/wsl.png
    :alt: linux vm with python, pip and ansible
    :align: center
@@ -41,6 +42,7 @@ Localhost Windows
 - to verify your linux Installation is running on WSL2, run:
 - ``wsl --list --verbose``
 - it should be 2 in the VERSION column 
+
 .. image:: https://raw.githubusercontent.com/Segmensation/segmensation-docs/main/source/img/wsl2.png
    :alt: linux vm running on WSL2
    :align: center  
@@ -50,11 +52,13 @@ Localhost Windows
 - download and install `Docker <https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe>`_
 - make sure "Install required Windows Components for WSL2" is checked
 - in Docker Desktop go to Settings > General and make sure "Use the WSL 2 based engine" is checked
+
 .. image:: https://raw.githubusercontent.com/Segmensation/segmensation-docs/main/source/img/docker1.png
    :alt: general docker settings
    :align: center
 
 - go to Settings > Resource > WSL Integration and enable integration for your linux distribution
+
 .. image:: https://raw.githubusercontent.com/Segmensation/segmensation-docs/main/source/img/docker2.png
    :alt: docker settings for linux vm
    :align: center
@@ -69,6 +73,7 @@ Localhost Windows
 - ``corepack enable``
 - to verify installation run: 
 - ``node --version`` and ``yarn --version``
+
 .. image:: https://raw.githubusercontent.com/Segmensation/segmensation-docs/main/source/img/nodejs.png
    :alt: verify node and yarn are installed properly
    :align: center

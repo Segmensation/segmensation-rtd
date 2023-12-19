@@ -14,7 +14,7 @@ Prediction.
 Resulting probability maps can be saved as images and pixel 
 probabilities can be saved as CSV.
 
-Here is an example of the input, the marking of two classes and the prediction output of this component.
+Here is an example of the input, the manual marking of two classes in Segmensation and the prediction output of this component.
 
 .. |pic1| image:: /img/training/example.png
    :width: 30%
@@ -25,7 +25,7 @@ Here is an example of the input, the marking of two classes and the prediction o
 .. |pic3| image:: /img/training/randomForest/prediction.png
    :width: 30%
 
-|pic1|  |pic2| |pic3|
+|pic1| |pic2| |pic3|
 
 
 Hough Circle Transformation

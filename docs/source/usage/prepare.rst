@@ -28,10 +28,12 @@ Number of iterations for Dilation and Erosion.
 
 .. |pic1| image:: /img/training/example.png
    :alt: expample
+   :width: 40%
 
 .. |pic2| image:: /img/prepare/closing.png
    :alt: image of closing
-
+   :width: 40%
+   
 |pic1|  |pic2|
 
 Shrinking
@@ -52,9 +54,11 @@ This operation will simply limit the available color space for the selected imag
 
 .. |pic3| image:: /img/training/example.png
    :alt: expample
+   :width: 40%
 
 .. |pic4| image:: /img/prepare/shrinking.png
    :alt: image of shrinking
+   :width: 40%
 
 |pic3|  |pic4|
 
@@ -76,9 +80,11 @@ the pixel values within a specified neighborhood around each pixel
 
 .. |pic5| image:: /img/training/example.png
    :alt: expample
+   :width: 40%
 
 .. |pic6| image:: /img/prepare/blur.png   
    :alt: image of gaussian blur
+   :width: 40%
 
 |pic5|  |pic6|
 
@@ -102,20 +108,22 @@ and image that is devided in two classes, either foreground or background.
 
 .. |pic7| image:: /img/training/example.png
    :alt: expample
+   :width: 40%
 
 .. |pic8| image:: /img/prepare/adaptive_mean.png   
    :alt: image of mean thresholding
-
+   :width: 40%
 
 |pic7|  |pic8|
 
 
 .. |pic9| image:: /img/prepare/adaptive_gauissian.png   
    :alt: image of gaussian thresholding
+   :width: 40%
 
 .. |pic10| image:: /img/prepare/otsu.png
    :alt: image of otsu thresholding
-
+   :width: 40%
 |pic9|  |pic10|
 
 Watershed
@@ -129,13 +137,14 @@ The barriers that got created give the segmentation result.
 An example of the watershed algorithm results can be seen here
 
 
-.. |pic11| image:: ./img/prepare/watershed_interface.png
-   :alt:: watershed GUI
-      
-.. |pic12| image:: ./img/prepare/watershed.png
-   :alt: watershed of an example
+.. |pic11| image:: /img/prepare/watershed_interface.png
+   :alt: watershed GUI
+   :width: 40%
 
-|pic11| - |pic12|
+.. |pic12| image:: s/img/prepare/watershed.png
+   :alt: watershed of an example
+   :width: 40%
+|pic11|  |pic12|
 
 
 

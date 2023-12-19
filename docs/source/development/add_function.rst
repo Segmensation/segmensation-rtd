@@ -1,5 +1,5 @@
 Adding new functionality (general approach)
-========================
+================================================
 
 Due to the underlying Client-Server-Architecture, the functionality 
 of Segmensation is easily expandable. The process consists of three steps: 
