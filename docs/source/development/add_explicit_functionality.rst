@@ -1,5 +1,5 @@
 Adding new functionality (explicit approach)
-========================
+================================================
 
 To add for example an imaging algorithm like `watershed segmentation <https://docs.opencv.org/4.x/d3/db4/tutorial_py_watershed.html>`_
 of an image you need to do following steps:
@@ -10,7 +10,7 @@ of an image you need to do following steps:
 
 
 Adding frontend interfaces for watershed segmentation
---------------------------
+------------------------------------------------------------------------------
 
 Fist we create a new folder in the correct location where the new application should be located.
 This can be in the *analyze*, *Classifier*, *open* or *prepare* section, 
@@ -71,6 +71,7 @@ Next we create the functionality of the button when clicking on it. We need to e
 The *<script>* part of this file will hold the frontend functionality of this module (light data manipulation and the call to backend)
 
 We add *@click="watershed()* to the button so it will activate the *watershed()* function when clicking. 
+
 .. code-block:: html
     <v-container class="text-right">
         <v-col>
@@ -79,7 +80,7 @@ We add *@click="watershed()* to the button so it will activate the *watershed()*
             </v-row>
         </v-col>
     </v-container>
-
+    
 
 
 The template part is expandable in any way you want. You can add some dropdown menus or some text filed or ...
