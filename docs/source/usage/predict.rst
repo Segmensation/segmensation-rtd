@@ -15,7 +15,6 @@ Resulting probability maps can be saved as images and pixel
 probabilities can be saved as CSV.
 
 Here is an example of the input, the marking of two classes and the prediction output of this component.
-|pic1|  |pic2| |pic3|
 
 .. |pic1| image:: /img/train/example.png
    :width: 30%
@@ -25,6 +24,8 @@ Here is an example of the input, the marking of two classes and the prediction o
    
 .. |pic3| image:: /img/train/randomForest/prediction.png
    :width: 30%
+
+|pic1|  |pic2| |pic3|
 
 
 Hough Circle Transformation

@@ -37,13 +37,14 @@ A tutorial about the implementation of the Hough Circle Transformation can be fo
 .. image:: https://raw.githubusercontent.com/Segmensation/segmentation-rtd/main/docs/source/img/train_hct.jpg
    :alt: image of GUI
 
-|pic1|  |pic2|
 
 .. |pic1| image:: /img/example.png
    :width: 45%
 
 .. |pic2| image:: /img/houghCircle/prediction.png
    :width: 45%
+
+|pic1|  |pic2|
 
 
 Ellipse Detection
@@ -65,10 +66,11 @@ This follows the approach by `OpenCV <https://docs.opencv.org/3.4/de/d62/tutoria
 
 
 Example of detecting ellipses with above parameters from an image.
-|pic3|  |pic4|
 
 .. |pic3| image:: /img/example.png
    :width: 45%
 
 .. |pic4| image:: /img/ellipse/prediction.png
    :width: 45%
+
+|pic3|  |pic4|
