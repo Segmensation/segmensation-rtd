@@ -172,8 +172,9 @@ This will not have an response. If you need one you may ad a part like
 
 
 
+
 Adding backend code for watershed segmentation
---------------------------
+----------------------------------------------------
 After dealing with everything in the frontend, we need to create the backend part with the API call and the algorithm that should be executed.
 
 
@@ -181,6 +182,7 @@ First we need to collect that API call.
 In ``segmensation-api/app.py`` we need to create the corresponding code for the Axios request. 
 
 .. code-block:: typescript
+
     @app.post('/image/<key>/watershed')
 
 Now we want to create a function that executes the watershed segmentation. 
@@ -189,6 +191,7 @@ We call the responding function that we will create afterwards.
 The code in ``app.py`` should look like:
 
 .. code-block:: typescript
+
     @app.post('/image/<key>/watershed')
     def manipulation_watershed(key):
         file, channel, slice_nr = load_request_image(key)
@@ -206,6 +209,7 @@ Next we create a python file called ``watershed.py`` in ``segmensation-api/manip
 In this file we can now create the function where we actually calculate the watershed segmentation. 
 
 .. code-block:: python 
+
     import cv2 as cv
     import numpy as np
 
@@ -280,6 +284,7 @@ The only thing we now need to do is to register this function in ``segmensation-
 For this we simply add 
 
 .. code-block:: python 
+    
     from .watershed import watershed
 
 to the ``segmensation-api/manipulation/__init__.py`` file.

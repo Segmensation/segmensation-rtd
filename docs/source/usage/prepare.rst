@@ -1,5 +1,5 @@
 Preparing an Image
-==================
+====================================
 To receive good results with object detection methods in images, those 
 images usually need some kind of preprocessing. Segmensation currently 
 only offers such functions for images where objects are defined by their 
@@ -35,7 +35,7 @@ Number of iterations for Dilation and Erosion.
 |pic1|  |pic2|
 
 Shrinking
----------
+------------------
 Shrinking can be used to manipulate the color histogram of an image. 
 With this operation, certain colors can be enhanced by reducing the color 
 space to the desired range.
@@ -60,7 +60,7 @@ This operation will simply limit the available color space for the selected imag
 
 
 Gausian Blur
----------
+------------------
 `Gausian Blur <https://shimat.github.io/opencvsharp_docs/html/7b0301d7-322d-a554-8d3f-32fd8ca0ee50.htm>`_ is an image processing technique. It is used to reduce noise and detail in an image.
 The purpose of this technique is to create a smoother and softer version of the image by averaging
 the pixel values within a specified neighborhood around each pixel
@@ -84,7 +84,7 @@ the pixel values within a specified neighborhood around each pixel
 
 
 Thresholding
----------
+------------------
 `Thresholding <https://docs.opencv.org/4.x/d7/d4d/tutorial_py_thresholding.html>`_ is used to segment or separate objects in a image. This will produce
 and image that is devided in two classes, either foreground or background.
 
@@ -106,7 +106,8 @@ and image that is devided in two classes, either foreground or background.
 .. |pic8|image:: /img/prepare/adaptive_mean.png   
    :alt: image of mean thresholding
 
-|pic7| |pic8|
+
+|pic7| - |pic8|
 
 
 .. |pic9|image:: /img/prepare/adaptive_gauissian.png   
@@ -115,10 +116,10 @@ and image that is devided in two classes, either foreground or background.
 .. |pic10|image:: /img/prepare/otsu.png
    :alt: image of otsu thresholding
 
-|pic9| |pic10|
+|pic9| - |pic10|
 
 Watershed
----------
+------------------
 
 `Watershed <https://docs.opencv.org/4.x/d3/db4/tutorial_py_watershed.html>`_ is an image processing algorithm to segment an image. 
 The image is viewed as a topographic surface where high intensity denotes peaks and hills while low intensity denotes valleys. 
@@ -128,13 +129,13 @@ The barriers that got created give the segmentation result.
 An example of the watershed algorithm results can be seen here
 
 
-.. |pic11|image:: /img/prepare/watershed_interface.png
+.. |pic11|image:: ./img/prepare/watershed_interface.png
    :alt:: watershed GUI
       
-.. |pic12|image:: /img/prepare/watershed.png
+.. |pic12|image:: ./img/prepare/watershed.png
    :alt: watershed of an example
 
-|pic11| |pic12|
+|pic11| - |pic12|
 
 
 
