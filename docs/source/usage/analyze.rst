@@ -42,12 +42,13 @@ into:
    :alt: image of GUI
 
 
+Here you can see an example of the analysis. On the left you can see the original and on the right the region that 'astrocytes' that got detected. 
 |pic1|  |pic2|
 
-.. |pic1| image:: /img/astrocytes_input.png
+.. |pic1| image:: /img/training/example.png
    :width: 45%
 
-.. |pic2| image:: /img/astrocytes_result.png
+.. |pic2| image:: /img/analyse/analyse.png
    :width: 45%
 
 

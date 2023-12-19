@@ -23,10 +23,14 @@ Parameters:
 
 Number of iterations for Dilation and Erosion.
 
-.. image:: https://raw.githubusercontent.com/Segmensation/segmensation-docs/main/source/img/prepare_closing.jpg
+.. image:: /img/prepare/closing_interface.png
    :alt: image of GUI
 
-.. image:: /img/closing.png
+|pic1|  |pic2|
+.. |pic1| image:: /img/training/example.png
+   :alt: expample
+
+.. |pic2| image:: /img/prepare/closing.png
    :alt: image of closing
 Shrinking
 ---------
@@ -41,10 +45,14 @@ This operation will simply limit the available color space for the selected imag
     between 0 and 255, which is required for saving the image as JPG or 
     PNG.
 
-.. image:: https://raw.githubusercontent.com/Segmensation/segmensation-docs/main/source/img/prepare_shrinking.jpg
+.. image:: /img/prepare/shrinking_interface.png
    :alt: image of GUI
 
-.. image:: /img/shrinking.png
+|pic3|  |pic4|
+.. |pic3| image:: /img/training/example.png
+   :alt: expample
+
+.. |pic4| image:: /img/prepare/shrinking.png
    :alt: image of shrinking
 
 
@@ -62,6 +70,14 @@ the pixel values within a specified neighborhood around each pixel
 .. image::https://raw.githubusercontent.com/Segmensation/segmentation-rtd/main/docs/source/img/gaussianBlur.png
    :alt: image of GUI
 
+|pic5|  |pic6|
+
+.. |pic5| image:: /img/training/example.png
+   :alt: expample
+
+.. |pic6| image:: /img/prepare/blur.png   
+   :alt: image of gaussian blur
+
 Thresholding
 ---------
 `Thresholding <https://docs.opencv.org/4.x/d7/d4d/tutorial_py_thresholding.html>`_ is used to segment or separate objects in a image. This will produce
@@ -76,8 +92,39 @@ and image that is devided in two classes, either foreground or background.
 
     For different images different thesholds can be optimal.
 
-.. image:: https://raw.githubusercontent.com/Segmensation/segmentation-rtd/main/docs/source/img/threshold.png
+.. image:: /img/prepare/thresholding_interface.png   
    :alt: image of GUI
 
-   .. image:: https://raw.githubusercontent.com/Segmensation/segmentation-rtd/main/docs/source/img/threshold_dropdown.png
-   :alt: image of GUI
+|pic7| |pic8|
+.. |pic7| image:: /img/training/example.png
+   :alt: expample
+
+.. |pic8|image:: /img/prepare/adaptive_mean.png   
+   :alt: image of mean thresholding
+
+|pic9| |pic10|
+.. |pic9|image:: /img/prepare/adaptive_gauissian.png   
+   :alt: image of gaussian thresholding
+
+.. |pic10|image:: /img/prepare/otsu.png
+   :alt: image of otsu thresholding
+
+Watershed
+---------
+
+`Watershed <https://docs.opencv.org/4.x/d3/db4/tutorial_py_watershed.html>`_ is an image processing algorithm to segment an image. 
+The image is viewed as a topographic surface where high intensity denotes peaks and hills while low intensity denotes valleys. 
+Then the valleys get filled. When two or more of these individual valleys get connected with water, a "barrier" gets put in place.
+The barriers that got created give the segmentation result.
+
+An example of the watershed algorithm results can be seen here
+
+|pic11| |pic12|
+
+.. |pic11|image:: /img/prepare/watershed_interface.png
+   :alt:: watershed GUI
+      
+.. |pic12|image:: /img/prepare/watershed.png
+   :alt: watershed of an example
+
+
