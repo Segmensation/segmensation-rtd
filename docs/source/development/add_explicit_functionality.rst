@@ -18,7 +18,6 @@ We put the watershed algorithm in the ``segmensation-app/src/script/prepare`` se
 
 
 .. image:: https://github.com/Segmensation/segmensation-rtd/blob/0975eb53a171267eaca8620c295930e50eb031dc/docs/source/img/watershed/create_folder.png?raw=true
-
     :alt: create frontend folder for watershed
 
 Next you need to create a file called ``comp.vue`` inside the watershed folder. 
@@ -73,6 +72,7 @@ The *<script>* part of this file will hold the frontend functionality of this mo
 We add *@click="watershed()* to the button so it will activate the *watershed()* function when clicking. 
 
 .. code-block:: html
+
     <v-container class="text-right">
         <v-col>
             <v-row>
