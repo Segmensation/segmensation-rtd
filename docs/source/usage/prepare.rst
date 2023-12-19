@@ -21,19 +21,20 @@ opened again by erosion.
 
 Parameters:
 
-Number of iterations for Dilation and Erosion.
-
 .. image:: /img/prepare/closing_interface.png
    :alt: image of GUI
 
+Here you can see the original and the image that got eroded and dilated. 
+For example a Kernel size of 100 got chosen. 
+
 .. |pic1| image:: /img/training/example.png
-   :alt: expample
+   :alt: example
    :width: 40%
 
 .. |pic2| image:: /img/prepare/closing.png
    :alt: image of closing
    :width: 40%
-   
+
 |pic1|  |pic2|
 
 Shrinking
@@ -45,13 +46,14 @@ This operation will simply limit the available color space for the selected imag
 
 
 .. note::
-    This operation also automatically maps the color values to a range 
-    between 0 and 255, which is required for saving the image as JPG or 
-    PNG.
+   This operation also automatically maps the color values to a range 
+   between 0 and 255, which is required for saving the image as JPG or 
+   PNG.
 
 .. image:: /img/prepare/shrinking_interface.png
    :alt: image of GUI
 
+Here you can see the example and the image that got shrunk to above colorspace for each channel
 .. |pic3| image:: /img/training/example.png
    :alt: expample
    :width: 40%
@@ -76,6 +78,8 @@ the pixel values within a specified neighborhood around each pixel
     
 .. image::https://raw.githubusercontent.com/Segmensation/segmentation-rtd/main/docs/source/img/gaussianBlur.png
    :alt: image of GUI
+
+You can see the original image and the blurred image. 
 
 
 .. |pic5| image:: /img/training/example.png
@@ -106,6 +110,7 @@ and image that is devided in two classes, either foreground or background.
 .. image:: /img/prepare/thresholding_interface.png   
    :alt: image of GUI
 
+Here you can see the original image and the image that got thresholded with the adaptive mean. 
 .. |pic7| image:: /img/training/example.png
    :alt: expample
    :width: 40%
@@ -116,8 +121,9 @@ and image that is devided in two classes, either foreground or background.
 
 |pic7|  |pic8|
 
+Here you can see gaussian thresholding and otsu thresholding
 
-.. |pic9| image:: /img/prepare/adaptive_gauissian.png   
+.. |pic9| image:: /img/prepare/adaptive_gaussian.png   
    :alt: image of gaussian thresholding
    :width: 40%
 
@@ -137,11 +143,13 @@ The barriers that got created give the segmentation result.
 An example of the watershed algorithm results can be seen here
 
 
-.. |pic11| image:: /img/prepare/watershed_interface.png
+.. image:: /img/prepare/watershed_interface.png
    :alt: watershed GUI
    :width: 40%
 
-.. |pic12| image:: s/img/prepare/watershed.png
+.. |pic11| image:: /img/training/example.png
+
+.. |pic12| image:: /img/prepare/watershed.png
    :alt: watershed of an example
    :width: 40%
 |pic11|  |pic12|
