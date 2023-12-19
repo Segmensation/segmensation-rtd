@@ -38,10 +38,10 @@ A tutorial about the implementation of the Hough Circle Transformation can be fo
    :alt: image of GUI
 
 
-.. |pic1| image:: /img/example.png
+.. |pic1| image:: /img/training/example.png
    :width: 45%
 
-.. |pic2| image:: /img/houghCircle/prediction.png
+.. |pic2| image:: /img/training/houghCircle/prediction.png
    :width: 45%
 
 |pic1|  |pic2|
@@ -67,7 +67,7 @@ This follows the approach by `OpenCV <https://docs.opencv.org/3.4/de/d62/tutoria
 
 Example of detecting ellipses with above parameters from an image.
 
-.. |pic3| image:: /img/example.png
+.. |pic3| image:: /img/training/example.png
    :width: 45%
 
 .. |pic4| image:: /img/training/ellipse/prediciton.png

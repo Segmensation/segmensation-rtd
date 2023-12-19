@@ -103,20 +103,20 @@ and image that is devided in two classes, either foreground or background.
 .. |pic7| image:: /img/training/example.png
    :alt: expample
 
-.. |pic8|image:: /img/prepare/adaptive_mean.png   
+.. |pic8| image:: /img/prepare/adaptive_mean.png   
    :alt: image of mean thresholding
 
 
-|pic7| - |pic8|
+|pic7|  |pic8|
 
 
-.. |pic9|image:: /img/prepare/adaptive_gauissian.png   
+.. |pic9| image:: /img/prepare/adaptive_gauissian.png   
    :alt: image of gaussian thresholding
 
-.. |pic10|image:: /img/prepare/otsu.png
+.. |pic10| image:: /img/prepare/otsu.png
    :alt: image of otsu thresholding
 
-|pic9| - |pic10|
+|pic9|  |pic10|
 
 Watershed
 ------------------
@@ -129,10 +129,10 @@ The barriers that got created give the segmentation result.
 An example of the watershed algorithm results can be seen here
 
 
-.. |pic11|image:: ./img/prepare/watershed_interface.png
+.. |pic11| image:: ./img/prepare/watershed_interface.png
    :alt:: watershed GUI
       
-.. |pic12|image:: ./img/prepare/watershed.png
+.. |pic12| image:: ./img/prepare/watershed.png
    :alt: watershed of an example
 
 |pic11| - |pic12|
