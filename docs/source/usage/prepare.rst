@@ -54,6 +54,7 @@ This operation will simply limit the available color space for the selected imag
    :alt: image of GUI
 
 Here you can see the example and the image that got shrunk to above colorspace for each channel
+
 .. |pic3| image:: /img/training/example.png
    :alt: expample
    :width: 40%
@@ -111,6 +112,7 @@ and image that is devided in two classes, either foreground or background.
    :alt: image of GUI
 
 Here you can see the original image and the image that got thresholded with the adaptive mean. 
+
 .. |pic7| image:: /img/training/example.png
    :alt: expample
    :width: 40%
@@ -148,6 +150,8 @@ An example of the watershed algorithm results can be seen here
    :width: 40%
 
 .. |pic11| image:: /img/training/example.png
+   :alt: example
+   :width: 40%
 
 .. |pic12| image:: /img/prepare/watershed.png
    :alt: watershed of an example
