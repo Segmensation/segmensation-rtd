@@ -16,13 +16,13 @@ probabilities can be saved as CSV.
 
 Here is an example of the input, the marking of two classes and the prediction output of this component.
 
-.. |pic1| image:: /img/train/example.png
+.. |pic1| image:: /img/training/example.png
    :width: 30%
 
-.. |pic2| image:: /img/train/randomForest/class_marking.png
+.. |pic2| image:: /img/training/randomForest/class_marking.png
    :width: 30%
    
-.. |pic3| image:: /img/train/randomForest/prediction.png
+.. |pic3| image:: /img/training/randomForest/prediction.png
    :width: 30%
 
 |pic1|  |pic2| |pic3|
